@@ -15,16 +15,16 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~87VVQZpR#p7krL-urEiWD2km-un3Hg2Xg7g_NNFMRzX0UierVGb0' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~5n80BD4J#KYBtxLt2_CZgVNYJpfxEivwoV-p5NWItQue5Zu8f-iI' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'Toxic-Gunner' 
+global.botname = process.env.BOT_NAME || 'Da-Vinci' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254115581180' 
+global.ownernumber = process.env.OWNER_NUMBER || '254735926073' 
 
 //--------------------[ SUDO ]--------------------------//
 
@@ -34,7 +34,7 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Gunners' 
+global.ownername = process.env.OWNER_NAME || 'Vinci' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
@@ -61,7 +61,7 @@ global.wm = process.env.GL_WM || "> ©TOXIC GUNNER"
 
 global.mess = { 
   done: '*Done*', 
-  success: '©kango-xmd', 
+  success: '©Da-Vinci', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
